@@ -58,10 +58,3 @@ This project solves that friction by deploying an autonomous, 2-way AI agent tha
 * **Instantaneous Retrieval:** Reduces resume retrieval and job review time from minutes of manual searching to sub-second mobile notifications via Telegram.
 
 ---
-
-## ⚙️ Quick Setup & Deployment
-
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/shansuberr-ux/YOUR-NEW-REPO-NAME.git](https://github.com/shansuberr-ux/YOUR-NEW-REPO-NAME.git)
-   cd YOUR-NEW-REPO-NAME

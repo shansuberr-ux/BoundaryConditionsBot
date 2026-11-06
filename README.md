@@ -19,14 +19,17 @@ This project solves that friction by deploying an autonomous, 2-way AI agent tha
 
 ---
 
-## 🖼️ Gallery
+## 🖼️ Gallery: End-to-End System Workflow
 
-*(Add your screenshots here by uploading them to an `assets/` folder in your repository)*
-
-| **Telegram Live Job Alert** | **GitHub Actions CI/CD Pipeline** |
+| **1. Telegram Interactive Command & Job Alert** | **2. Live Telegram Job Match Card** |
 | :---: | :---: |
-| ![Telegram Alert Preview](assets/images/telegram_alert.png) | ![Actions Workflow Success](assets/images/actions_success.png) |
-| *Clean alert cards showing direct apply links, X-Ray search options, and tailored outreach drafts.* | *Automated 4-hour cron triggers ensuring 24/7 continuous scouting without manual intervention.* |
+| ![Telegram Chat Response](assets/images/telegram_chat_response.png)[cite: 6] | ![Telegram Job Alert](assets/images/telegram_alert.png)[cite: 3] |
+| *Executing `/run` triggers the pipeline and delivers live job cards instantly to mobile.* | *Detailed alert showing required experience, resume lane mapping, X-Ray search links, and AI-tailored outreach notes.* |
+
+| **3. Serverless Cloudflare Worker Webhook** | **4. Automated GitHub Actions CI/CD** |
+| :---: | :---: |
+| ![Cloudflare Observability](assets/images/Cloudfare_agent_log_telegram_chat.png)[cite: 4] | ![GitHub Workflow Runs](assets/images/Gitub_workflow_requests.png)[cite: 5] |
+| *24/7 stateless edge routing handling incoming webhook events with sub-second response times.* | *Scheduled cron triggers and remote webhook dispatches running headless Python scrapers.* |
 
 ---
 

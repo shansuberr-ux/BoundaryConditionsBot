@@ -21,17 +21,9 @@ This project solves that friction by deploying an autonomous, 2-way AI agent tha
 
 ## 🖼️ Gallery: End-to-End System Workflow
 
-| **1. Telegram Interactive Command & Job Alert** | **2. Live Telegram Job Match Card** |
+| **Workflow Components (Scraping, Routing & Execution)** | **Live Output (Telegram Job Match Card)** |
 | :---: | :---: |
-| ![Telegram Chat Response](assets/telegram_chat_response.png)[cite: 6] | ![Telegram Job Alert](assets/telegram_alert.png)[cite: 3] |
-| *Executing `/run` triggers the pipeline and delivers live job cards instantly to mobile.* | *Detailed alert showing required experience, resume lane mapping, X-Ray search links, and AI-tailored outreach notes.* |
-
-| **3. Serverless Cloudflare Worker Webhook** | **4. Automated GitHub Actions CI/CD** |
-| :---: | :---: |
-| ![Cloudflare Observability](assets/Cloudfare_agent_log_telegram_chat.png)[cite: 4] | ![GitHub Workflow Runs](assets/Gitub_workflow_requests.png)[cite: 5] |
-| *24/7 stateless edge routing handling incoming webhook events with sub-second response times.* | *Scheduled cron triggers and remote webhook dispatches running headless Python scrapers.* |
-
----
+| **1. Telegram Interactive Command & Response**<br>![Telegram Chat Response](assets/telegram_chat_response.png)<br>*Executing `/run` triggers the pipeline and delivers live job cards instantly to mobile.*[cite: 6]<br><br>**2. Serverless Cloudflare Worker Webhook**<br>![Cloudflare Observability](assets/Cloudfare_agent_log_telegram_chat.png)<br>*24/7 stateless edge routing handling incoming webhook events with sub-second response times.*[cite: 4]<br><br>**3. Automated GitHub Actions CI/CD**<br>![GitHub Workflow Runs](assets/Gitub_workflow_requests.png)<br>*Scheduled cron triggers and remote webhook dispatches running headless Python scrapers.*[cite: 5] | **Detailed Job Alert & AI Tailoring Card**<br>![Telegram Job Alert](assets/telegram_alert.png)<br>*Comprehensive alert displaying required experience, resume lane mapping, X-Ray search links, and AI-tailored outreach notes.*[cite: 3] |
 
 ## 💡 Skills Demonstrated
 * **Mechanical & CAE Engineering Expertise:** Domain knowledge in NPD/NPI cycles, IP68 enclosure design, structural FEA/CFD simulation, and robotics mechanism design (~3.5 Years of Professional Experience).
